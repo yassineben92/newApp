@@ -1,0 +1,36 @@
+{
+    "type": "champion",
+    "format": "full",
+    "version": "15.12.1",
+    "data": {
+        "TestChamp": {
+            "id": "TestChamp",
+            "key": "999",
+            "name": "Test Champion",
+            "title": "the Tester",
+            "blurb": "A champion for testing.",
+            "info": {
+                "attack": 1.0,
+                "defense": 1.0,
+                "magic": 1.0,
+                "difficulty": 1.0
+            },
+            "image": {
+                "full": "TestChamp.png"
+            },
+            "tags": [
+                "Mage",
+                "Fighter"
+            ],
+            "partype": "Mana",
+            "stats": {
+                "hp": 600.0,
+                "mp": 300.0
+            },
+            "spells": [],
+            "passive": {
+                "name": "TestPassive"
+            }
+        }
+    }
+}
